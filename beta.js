@@ -24,9 +24,9 @@ function on_device_orientation(evt) {
   context.beginPath();
   context.fillRect(180, 150, evt.beta, 50);
 
-  context.translate(centru.x/2, centru.y/2);
+  /*context.translate(centru.x/2, centru.y/2);
   context.rotate(alpha * Math.PI / 180);
   context.beginPath();
   context.rect(sus, dreapta, jos, stanga);
-  context.stroke();
+  context.stroke();*/
 }
