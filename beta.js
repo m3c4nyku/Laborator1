@@ -29,9 +29,4 @@ function on_device_orientation(evt) {
   context.beginPath();
   context.rect(sus, dreapta, jos, stanga);
   context.stroke();
-
-  context.addEventListener('click', function(){
-	  current_rotation += 90;
-    context.style.transform = 'rotate(' + current_rotation + 'deg)';
-  });
 }
