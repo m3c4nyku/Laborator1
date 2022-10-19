@@ -22,7 +22,7 @@ function on_device_orientation(evt) {
 
   context.fillStyle = "#6A0888";
   context.beginPath();
-  context.fillRect(180, 150, evt.gamma, 50);
+  context.fillRect(180, evt.gamma, 100, 50);
 
   context.translate(centru.x/2, centru.y/2);
   context.rotate(gamma * Math.PI / 180);
